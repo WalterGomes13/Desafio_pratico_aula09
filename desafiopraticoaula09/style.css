@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #34b7b5;
+  height: 100vh;
+  margin: 0px;
+}
+
+#divMenu {
+  width: 100vw;
+}
+
+ul {
+  background-color: #16448d;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0px;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.mouseOver {
+  background-color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
